@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '24482734'))
 API_HASH = environ.get('API_HASH', '5ccf6a58166cc047a7eba01c5dbc930c')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6441894854:AAFGAXaxFt9dXezDAOPbWEHwLS2VhZkWtqc")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -127,7 +127,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://mytestvj-998c9929dc7a.herokuapp.com/")
+URL = environ.get("URL", "")
 
 
 # Rename Info ; If True Then Bot Rename File Else Not
