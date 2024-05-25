@@ -131,7 +131,7 @@ URL = environ.get("URL", "https://tn69links-autofilterbot-gbgq.onrender.com/")
 
 
 # Rename Info ; If True Then Bot Rename File Else Not
-RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or Flase
+RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or Flase
 
 # Auto Approve Info ; If True Then Bot Approve New Upcoming Join Request Else Not
 AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', True)) # Set True or Flase
