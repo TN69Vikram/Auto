@@ -38,7 +38,7 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
 # auth_channel means force subscribe channel.
 auth_channel = environ.get('AUTH_CHANNEL', '-1001840046152') # give your force subscribe channel id here else leave it blank
-auth_grp = environ.get('AUTH_GROUP', '-1001628885749') # give your force subscribe group id here else leave it blank
+auth_grp = environ.get('AUTH_GROUP', '-1001969040368') # give your force subscribe group id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001909916496')
@@ -65,7 +65,7 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Cute_Boy_Saravana') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Tn69LinksMovies')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+6J8tdhbxsvFjMTA1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TN69Links')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_ToUse')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_ToUse')
